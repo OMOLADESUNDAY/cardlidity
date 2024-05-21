@@ -62,13 +62,21 @@
         width: 100%;
         padding: 0.5rem;
     }
-    .amount{
-        width: 75%;
-    }
+   
     .cardselect{
         width: 100%;
+        padding: 1rem;
     }
     .sect2{
         width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .selectcurrency{
+        padding: 1rem;
+        /* width: 18%; */
+    }
+    .amount{
+        width: 70%;
     }
 }
