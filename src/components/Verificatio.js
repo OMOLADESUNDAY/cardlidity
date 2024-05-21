@@ -6,7 +6,7 @@ const Verificatio = () => {
   return (
     <section className='veriContainer'>
       <div className="leftveri">
-        <img src={veriImg} alt="" />
+        <img src={veriImg} alt="" className='verimg' />
       </div>
       <div className="rightveri">
         <form>

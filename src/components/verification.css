@@ -56,7 +56,12 @@
         flex-direction: column;
     }
     .leftveri{
-        width: 100%;
+        width: 80%;
+        padding: 0px;
+        border: solid;
+    }
+    .verimg{
+        width: 90%;
     }
     .rightveri{
         width: 100%;
@@ -66,6 +71,9 @@
     .cardselect{
         width: 100%;
         padding: 1rem;
+        border: none;
+        appearance: none;
+        font-size: 20px;
     }
     .sect2{
         width: 100%;
