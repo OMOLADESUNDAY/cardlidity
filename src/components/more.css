@@ -1,0 +1,39 @@
+.moreContainer{
+    display: flex;
+    background-color: #F2F2F2;
+    align-items: center;
+    padding: 2rem;
+}
+.moreleft{
+    width: 50%;
+}
+.moreright{
+    width: 50%;
+    text-align: center;
+}
+.btn{
+    background-color: #198754;
+    cursor: pointer;
+}
+.moreimg{
+    width: 80%;
+    object-fit: cover;
+}
+.moreright >h2{
+    margin: 2rem 0;
+}
+@media screen and (max-width:768px) {
+    .moreContainer{
+        flex-direction: column;
+    }
+    .moreleft{
+        width: 100%;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .moreright{
+        width: 100%;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}

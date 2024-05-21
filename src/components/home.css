@@ -1,0 +1,51 @@
+.homeContainer{
+    background-color: #022726;
+    padding: 3rem 0;
+}
+.homeinner{
+    display: flex;
+    align-items: center;
+}
+.left{
+    width: 50%;
+    color: white;
+    padding-left: 4rem;
+}
+.left >p{
+    font-size: small;
+    font-weight: 400;
+    margin: 1rem 0;
+    line-height: 2.0;
+}
+.left >h1{
+    font-size: 3rem;
+}
+.right{
+    width: 50%;
+}
+.cardimg{
+    width: 100%;
+    object-fit: cover;
+}
+.verifybtn2{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 0.9rem 1.2rem;
+}
+@media screen and (max-width:768px) {
+    .homeinner{
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+        padding: 0 2rem;
+    }
+    .left{
+        text-align: center;
+    }
+    .right{
+        width: 100%;
+        padding: 0 2rem ;
+    }
+}

@@ -1,0 +1,68 @@
+.veriContainer{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+}
+.leftveri{
+    width: 50%;
+}
+.rightveri{
+    width: 50%;
+    text-align: center;
+    padding: 3rem;
+}
+.cardselect{
+    width: 80%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.selectcurrency{
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.sect2{
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+/* .se */
+.amount{
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 3px;
+    width: 80%;
+}
+.warning{
+    color: rgb(145, 145, 5);
+}
+.verifyCard{
+    width: 80%;
+    padding: 0.5rem;
+    border-radius: 3px;
+    background-color:#198754;
+    color: #fff;
+    font-size: large;
+    border: 6px;
+}
+.warningp{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+@media screen and (max-width:768px) {
+    .veriContainer{
+        flex-direction: column;
+    }
+    .leftveri{
+        width: 100%;
+    }
+    .rightveri{
+        width: 100%;
+        padding: 0.5rem;
+    }
+    .amount{
+        width: 75%;
+    }
+}
