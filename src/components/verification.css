@@ -56,9 +56,8 @@
         flex-direction: column;
     }
     .leftveri{
-        width: 80%;
+        width: 90%;
         padding: 0px;
-        border: solid;
     }
     .verimg{
         width: 90%;
@@ -82,13 +81,16 @@
     }
     .selectcurrency{
         padding: 1rem;
-        
+        border: none;
+        appearance: none;
+        font-size: 20px;
         /* width: 18%; */
     }
     .amount{
         width: 70%;
+        font-size: 20px;
     }
-    select > option{
+    /* select > option{
         padding: 1rem;
-    }
+    } */
 }
