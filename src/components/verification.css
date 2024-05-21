@@ -72,7 +72,7 @@
         width: 100%;
         padding: 1rem;
         border: none;
-        /* appearance: none; */
+        appearance: none;
         font-size: 20px;
     }
     .sect2{
@@ -82,6 +82,7 @@
     }
     .selectcurrency{
         padding: 1rem;
+        
         /* width: 18%; */
     }
     .amount{
