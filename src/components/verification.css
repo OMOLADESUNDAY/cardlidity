@@ -79,4 +79,7 @@
     .amount{
         width: 70%;
     }
+    select > option{
+        padding: 1rem;
+    }
 }
