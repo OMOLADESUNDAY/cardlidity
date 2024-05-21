@@ -47,11 +47,10 @@
 .verifyCard{
     width: 80%;
     padding: 0.5rem;
-    border-radius: 3px;
     background-color:#198754;
     color: #fff;
     font-size: large;
-    border: 6px;
+    border-radius: 6px;
 }
 .warningp{
     margin-top: 1rem;
@@ -100,6 +99,12 @@
     .amount{
         width: 70%;
         font-size: 20px;
+    }
+    .verifyCard{
+        width: 100%;
+        padding: 1rem;
+        font-size: 20px;
+        border-radius: 6px;
     }
     /* select > option{
         padding: 1rem;
