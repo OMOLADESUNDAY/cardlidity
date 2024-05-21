@@ -9,7 +9,7 @@ const Home = () => {
       <h1>Verify Gift Cards</h1>
         <p>Leverage our agile and efficient frameworks to provide a robust verification.
           Our smart algorithms run very fast to provide for you adequate info.</p>
-          <button className='verifybtn2'>Verify Now</button>
+          <button className='verifybtn2 verinow'>Verify Now</button>
       </div>
       <div className="right">
         <img className='cardimg' src={Cardl} alt="" />
