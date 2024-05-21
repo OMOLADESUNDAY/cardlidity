@@ -40,7 +40,7 @@ const Verificatio = () => {
       </select>
       <input type="Number" placeholder='Card Amount' className='amount' />
       </div>
-      <input type="text" name="" id="" placeholder='Redemption code' className='cardselect'/>
+      <input type="text" name="" id="" placeholder='Redemption code' className='redemptio'/>
       <p className='warningp'> <RiErrorWarningFill className='warning'/> Please make sure the redemption code is the original scratched code</p>
         <button type='submit' className='verifyCard'>Verify Card</button>
         <p>Please make sure the codes you are about to input are correct and according to details</p>
