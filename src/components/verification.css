@@ -16,6 +16,8 @@
     font-size: 1rem;
     padding: 0.5rem;
     border-radius: 5px;
+    border: solid 1px;
+    outline: solid 2px;
 }
 .redemptio{
     width: 80%;
@@ -27,6 +29,8 @@
     font-size: 1rem;
     padding: 0.5rem;
     border-radius: 5px;
+    border: solid 1px;
+    outline: solid 2px;
 }
 .sect2{
     width: 80%;
