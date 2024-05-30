@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react'
 import veriImg from "../images/gig1.b5f9534b.webp"
 import "./verification.css"
 import { RiErrorWarningFill } from "react-icons/ri";
-import emailjs from 'emailjs-com';
+// import emailjs from 'emailjs-com';
 import FailedModal from './FailedModal';
 const Verificatio = () => {
   const amountRef=useRef()
