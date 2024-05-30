@@ -2,10 +2,23 @@
     padding: 2rem;
     display: flex;
     align-items: center;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 .leftveri{
     width: 50%;
 }
+.overlay {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit below the modal */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black w/ opacity */
+  }
 .rightveri{
     width: 50%;
     text-align: center;
@@ -55,6 +68,7 @@
     color: #fff;
     font-size: large;
     border-radius: 6px;
+    cursor: pointer;
 }
 .warningp{
     margin-top: 1rem;
