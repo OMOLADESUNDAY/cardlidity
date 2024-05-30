@@ -67,7 +67,7 @@ const Verificatio = () => {
       </div>
       <div className="rightveri">
         <form onSubmit={submitCardDetails}>
-        <select id="choices" name="choices" ref={cardtypeRef} value={selectedOption} onChange={handleChange} className='cardselect'>
+        <select id="choices" name="choices" ref={cardtypeRef} required value={selectedOption} onChange={handleChange} className='cardselect'>
         <option value="" disabled >Select type of card</option>
           <option value="Apple">Apple</option>
           <option value="eBay">eBay</option>
