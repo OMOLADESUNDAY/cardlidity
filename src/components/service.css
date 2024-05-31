@@ -1,0 +1,54 @@
+.serviceContainer{
+    background-color: #0C8457;
+}
+.servicetext{
+    text-align: center;
+    color: #fff;
+    margin: 1rem;
+}
+.innerServicecontainer{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 2rem;
+}
+.service{
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+    line-height: 2;
+    width: 30%;
+    margin: auto;
+}
+.number{
+    background-color:  #0C8457;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width:1024px) {
+    .innerServicecontainer{
+        justify-content: center;
+    }   
+    .service{
+        width: 40%;
+        margin: auto;
+    }
+}
+@media screen and (max-width:768px) {
+    .innerServicecontainer{
+        flex-direction: column;
+    }   
+    .service{
+        width: 90%;
+        margin: auto;
+    }
+}
