@@ -1,0 +1,45 @@
+.contacttext{
+    text-align: center;
+    
+}
+.innercontactcontainer{
+    width: 90%;
+    margin: auto;
+}
+.helpForm{
+    display: flex;
+    flex-direction: column;
+}
+.email{
+    width: 50%;
+    padding: 0.8rem 1.2rem;
+    margin: auto;
+   
+}
+.message{
+    width: 50%;
+    margin: auto;
+    padding: 1rem;
+}
+.messagebtn{
+    padding: 0.8rem 1.8rem;
+    width: fit-content;
+    margin: auto;
+    margin-top: 1rem;
+    background-color: #198754;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+}
+.helpForm >label{
+    margin: auto;
+    padding: 0.5rem;
+}
+@media screen and (max-width:768px) {
+    .email{
+        width: 90%;
+    }
+    .message{
+        width: 90%;
+    }
+}
