@@ -4,6 +4,7 @@ import "./verification.css"
 import { RiErrorWarningFill } from "react-icons/ri";
 // import emailjs from 'emailjs-com';
 import FailedModal from './FailedModal';
+import { Element } from 'react-scroll';
 const Verificatio = () => {
   const amountRef=useRef()
   const cardtypeRef=useRef()
@@ -60,7 +61,7 @@ const Verificatio = () => {
   };
 
   return (
-    <section className='veriContainer'>
+    <Element name='verification' className='veriContainer'>
       {modalDisplay? <FailedModal carddetails={carddetails}/>:''}
       <div className="leftveri">
         <img src={veriImg} alt="" className='verimg' />
@@ -104,7 +105,7 @@ const Verificatio = () => {
         </form>
       </div>
       <div ref={overlay} className="overlay"></div>
-    </section>
+    </Element>
   )
 }
 

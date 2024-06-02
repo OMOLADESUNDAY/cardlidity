@@ -18,7 +18,7 @@ function App() {
   }, []);
   return (
     <div className="App">
-     <Navbar/>
+     <Navbar />
      <Home/>
      <More/>
      <Verificatio/>

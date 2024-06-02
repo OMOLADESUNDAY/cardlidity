@@ -1,8 +1,9 @@
 import React from 'react'
 import './contact.css'
+import { Element } from 'react-scroll'
 const Contact = () => {
   return (
-    <div className='contactContainer'>
+    <Element name='contact' className='contactContainer'>
     <h1 className='contacttext'>Contact Us</h1>
     <p className='contacttext'>We are available to help you with your giftcard verification needs and to provide you support with a quick solution to your problem.</p>
     <section className='innercontactcontainer'>
@@ -14,7 +15,7 @@ const Contact = () => {
       <button type='submit' className='messagebtn' >Submit</button>
      </form>
     </section>
-  </div>
+  </Element>
   )
 }
 

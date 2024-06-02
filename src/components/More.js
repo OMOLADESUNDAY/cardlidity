@@ -10,7 +10,7 @@ const More = () => {
       </div>
       <div className="moreright" data-aos="fade-up">
         <h2>We have verified over 10k giftcards on our site.Verify yours now</h2>
-        <Link to='' className='verifybtn2 btn'>Try for free</Link>
+        <Link to='verification' smooth={true} duration={500} className='verifybtn2 btn'>Try for free</Link>
       </div>
     </section>
   )

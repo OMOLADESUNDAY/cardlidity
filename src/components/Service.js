@@ -1,9 +1,10 @@
 import React from 'react'
 import './service.css'
+import { Element } from 'react-scroll'
 
 const Service = () => {
   return (
-    <div className='serviceContainer'>
+    <Element name='service' className='serviceContainer'>
       <h1 className='servicetext'>Our service</h1>
       <p className='servicetext'>Leverage our agile and efficient frameworks to provide a robust verification and synopsis for high level reviews on your giftcards</p>
       <section className='innerServicecontainer'>
@@ -25,7 +26,7 @@ const Service = () => {
           <p>Our smart frameworks is built on a decentralized platform to ensure clients gift card details are not stored anywhere in the server. Your card details are immediately deleted after verification operations.</p>
         </div>
       </section>
-    </div>
+    </Element>
   )
 }
 
