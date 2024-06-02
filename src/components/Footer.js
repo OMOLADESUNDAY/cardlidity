@@ -23,6 +23,7 @@ const Footer = () => {
       </div>
     </div>
     <div className="footer-bottom">
+      <p>4245 DUNCAN AVENUE, ST LOUIS, MISSOURI, USA.</p>
       <p>&copy; 2017 Cardlidity. All rights reserved.</p>
     </div>
   </footer>

@@ -8,7 +8,7 @@ const Home = () => {
       <section className='homeinner'>
       <div className="left">
       <h1>Verify Gift Cards</h1>
-        <p>Leverage our agile and efficient frameworks to provide a robust verification.
+        <p className='add'>Leverage our agile and efficient frameworks to provide a robust verification.
           Our smart algorithms run very fast to provide for you adequate info.</p>
           <Link to='verification' smooth={true} duration={500} className='verifybtn2 verinow'>Verify Now</Link>
       </div>
