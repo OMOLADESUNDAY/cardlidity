@@ -13,7 +13,7 @@ import { Helmet } from 'react-helmet';
 <Helmet>
 <meta property="og:title" content="Cardlidity" />
     <meta property="og:description" content=" Verify all brands of Gift cards" />
-    <meta property="og:image" name="image" content="./gcc1.946c88c6 (1).webp" />
+    <meta property="og:image" name="image" content="./images/gcc1.946c88c6 (1).webp" />
     <meta property="og:image:type" content="image/webp" />
     <meta property="og:image:width" content="200" />
     <meta property="og:image:height" content="200" />
