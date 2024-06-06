@@ -13,7 +13,7 @@ const FailedModal = ({carddetails}) => {
       <hr />
       <div><p>Brand: <span><b>{cardName}</b></span></p></div>
       <div><p>Amount: <span><b>{CardCurrency} {cardAmount}</b></span></p></div>
-      <div><p>Brand: <span><b>Not Activated</b></span></p></div>
+      <div><p>Brand: <span><b>Activated</b></span></p></div>
       <button className='closeBtn' onClick={()=>closemodal()}>close</button>
     </div>
   )
